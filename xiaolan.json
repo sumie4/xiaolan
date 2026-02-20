@@ -1,13 +1,16 @@
 {
   "type": "micro",
-  "model": "xiaolan_model.tflite",
   "wake_word": "ni_hao_xiao_lan",
+  "author": "sumie4",
+  "website": "https://github.com/sumie4/xiaolan",
+  "model": "https://raw.githubusercontent.com/sumie4/xiaolan/main/xiaolan_model.tflite",
+  "trained_languages": ["zh"],
   "version": 2,
   "micro": {
     "probability_cutoff": 0.75,
     "sliding_window_size": 5,
     "feature_step_size": 10,
     "tensor_arena_size": 131072,
-    "minimum_esphome_version": "2024.7.0"
+    "minimum_esphome_version": "2024.7"
   }
 }
