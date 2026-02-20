@@ -2,8 +2,7 @@
   "type": "micro",
   "wake_word": "ni_hao_xiao_lan",
   "author": "sumie4",
-  "website": "https://github.com/sumie4/xiaolan",
-  "model": "https://raw.githubusercontent.com/sumie4/xiaolan/main/xiaolan_model.tflite",
+  "model": "xiaolan_model.tflite", 
   "trained_languages": ["zh"],
   "version": 2,
   "micro": {
